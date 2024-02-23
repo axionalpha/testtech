@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+        <!-- Define your pastel colors -->
+        <color name="pastel_blue">#A6C8FF</color>
+        <color name="pastel_green">#A6ECA6</color>
+        <color name="pastel_pink">#FFA6C8</color>
+        <color name="pastel_yellow">#FFFFA6</color>
+
+        <!-- Define your theme -->
+        <style name="PastelTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme colors -->
+            <item name="colorPrimary">@color/pastel_blue</item>
+            <item name="colorPrimaryDark">@color/pastel_blue</item>
+            <item name="colorAccent">@color/pastel_pink</item>
+            <!-- Add more customizations as needed -->
+        </style>
+
+
+</resources>
